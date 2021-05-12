@@ -1,8 +1,12 @@
+import React from 'react';
+import {BrowserRouter} from 'react-router-dom';
+import AppRoter from './components/AppRoter';
+
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <BrowserRouter>
+      <AppRoter />
+    </BrowserRouter>
   );
 }
 
